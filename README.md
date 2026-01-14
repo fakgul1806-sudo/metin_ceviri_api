@@ -1,16 +1,17 @@
-# Metin Çeviri API 🇹🇷➡️🇬🇧
+# 🌍 Metin Çeviri API (TR → EN)
 
-Türkçe metni İngilizceye çeviren, **Flask** ile geliştirilmiş basit bir **REST API**.
-Metin çevirisi **OpenAI API** kullanılarak yapılmaktadır.
+Flask ile geliştirilmiş, Türkçe metni İngilizceye çeviren basit bir REST API.  
+OpenAI API kullanılarak dil algılama ve çeviri yapılır.
 
 ---
 
 ## 🚀 Özellikler
 - Flask tabanlı REST API
-- JSON formatında istek ve yanıt
+- JSON formatında istek / yanıt
+- Otomatik kaynak dil algılama
 - Varsayılan hedef dil: İngilizce
 - OpenAI API entegrasyonu
-- Postman ile kolayca test edilebilir
+- Postman ile test edilebilir
 
 ---
 
